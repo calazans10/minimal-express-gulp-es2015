@@ -1,24 +1,26 @@
 {
   "name": "minimal-express-gulp-es2015",
-  "version": "0.0.1",
-  "description": "Minimal Express Gulp ECMAScript 2015 Application",
+  "version": "0.0.2",
+  "description": "A simple generator for a Node app served by Express",
   "main": "dist/server.js",
   "scripts": {
     "start": "nodemon dist/server.js"
   },
+  "license": "MIT",
+  "repository": "calazans10/minimal-express-gulp-es2015",
   "author": {
     "name": "Jeferson Farias Calazans",
     "email": "calazans10@gmail.com",
     "url": "calazans10.com"
   },
-  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.3.21",
     "babel-preset-es2015": "^6.3.13",
     "del": "^2.2.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.1",
-    "gulp-sourcemaps": "^1.6.0"
+    "gulp-sourcemaps": "^1.6.0",
+    "nodemon": "^1.8.1"
   },
   "dependencies": {
     "body-parser": "^1.14.2",
