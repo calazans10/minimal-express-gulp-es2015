@@ -1,4 +1,7 @@
-# Minimal Express Gulp ECMAScript 2015 Application
+Minimal Express Gulp ECMAScript 2015 Application
+==============
+
+> A simple generator for a [Node](https://nodejs.org) app served by [Express](http://expressjs.com/).
 
 ## License
 
